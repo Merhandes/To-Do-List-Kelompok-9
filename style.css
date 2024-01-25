@@ -1,0 +1,44 @@
+#background-video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+body{
+    padding:50px;
+}
+
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 10px 7px 29px 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+.header .description {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom:30px;
+}
+
